@@ -7,7 +7,7 @@ img = imread('course1image.jpg');
 [r,c] = size(img);
 
 
-%Wrire code to split the image into three equal parts and store them in B, G, R channels
+%Write code to split the image into three equal parts and store them in B, G, R channels
 
 B = img(1:r/3,:);
 G = img((r/3)+1:(2*r/3),:);
